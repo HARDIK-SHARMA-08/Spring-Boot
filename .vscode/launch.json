@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.Chapter_1.DemoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "RestDatabaseApplication",
+            "request": "launch",
+            "mainClass": "com.example.rest_database.RestDatabaseApplication"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.DemoApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RestDatabaseApplication<rest_database>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.rest_database.RestDatabaseApplication",
+            "projectName": "rest_database",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
